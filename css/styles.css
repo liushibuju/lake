@@ -93,12 +93,21 @@ header nav ul li a {
     float: left
 }
 
-header nav ul li a:hover,
-#nav_current {
+header nav ul li a:hover {
     color: #fff;
     background: rgba(20, 20, 20, 0.8);
-    box-shadow: 0px 1px 0px rgba(255, 255, 255, .1), inset 0px 1px 1px rgba(0, 0, 0, .7);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, .1), inset 0px 1px 1px #E34C26;
     border-radius: 6px;
+}
+
+#nav_current {
+    background-image: url(../images/logoko.png);
+    width: 88px;
+    display: block;
+    height: 50px;
+    background-size: 155px;
+    background-position: center;
+    background-position: -10px -20px;
 }
 
 #mainbody {
@@ -182,7 +191,7 @@ header nav ul li a:hover,
 }
 
 
-/* �ṹ��α��ѡ���? ѡ���һ��p��ǩ�����������ϡ��������?40px*/
+/* �ṹ��α��ѡ���? ѡ���һ��p��ǩ�����������ϡ��������?40px*/
 
 .card p {
     padding: 0 0 0 40px;
@@ -301,7 +310,7 @@ header nav ul li a:hover,
 }
 
 
-/* Բ�ζ���߿��?�뱳��һ�� */
+/* Բ�ζ���߿��?�뱳��һ�� */
 
 .ci:hover {
     border: 2px solid #B9B9B9;
@@ -409,7 +418,7 @@ header nav ul li a:hover,
 }
 
 
-/*-------------------aside�����?--------------------------*/
+/*-------------------aside�����?--------------------------*/
 
 aside {
     width: 310px;
@@ -464,7 +473,7 @@ aside div {
 }
 
 
-/* ѡ��ӵ�?3����ʼ����Ҳ���ǵ�����ǰ���? */
+/* ѡ��ӵ�?3����ʼ����Ҳ���ǵ�����ǰ���? */
 
 .tuijian li:nth-child(-n+3) strong {
     font-size: 24px;
@@ -476,21 +485,21 @@ aside div {
 }
 
 
-/* ѡ���һ��? */
+/* ѡ���һ��? */
 
 .tuijian li:nth-child(n+3) {
     line-height: 24px
 }
 
 
-/* ѡ��ӵ�?3����ʼ������ */
+/* ѡ��ӵ�?3����ʼ������ */
 
 .tuijian li:nth-child(4) {
     margin: 5px 0 0 0
 }
 
 
-/* ѡ����ĸ�? */
+/* ѡ����ĸ�? */
 
 
 /* ͼ�Ĳ�ï */
@@ -532,7 +541,7 @@ aside div {
 }
 
 
-/* ���ŵ��? */
+/* ���ŵ��? */
 
 .clicks li {
     line-height: 24px;
